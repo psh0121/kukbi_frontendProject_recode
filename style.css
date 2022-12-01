@@ -76,7 +76,7 @@ a {
 /* static - section은 기존문서의 흐름을 따르도록 한다. */
 
 .section0-main {
-  padding-top: 3em;
+  padding-top: 2em;
   text-align: center;
   font-size: 6rem;
 }
@@ -85,9 +85,15 @@ a {
   /* fixed - 스크롤이벤트 발생시 애니메이션효과 추가할 것 */
   position: fixed;
   width: 100%;
+  display: none;
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
+  opacity: 0;
+}
+
+.show-section0 .section0-message {
+  display: block;
 }
 
 .section1, footer {
