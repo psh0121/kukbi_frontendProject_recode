@@ -6,45 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
+  <!-- 웹폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap" rel="stylesheet">
+
   <!-- 스타일 -->
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class ="show-section0">
   
   <!-- global nav -->
-  <nav>
-    <div>
-      <a href="#">Home</a>
-      <a href="#">History</a>
-      <a href="#">Store</a>
-      <a href="#">Contact</a>
+  <nav class="global">
+    <div class="global-container">
+      <a href="#" class="global-item">Home</a>
+      <a href="#" class="global-item">History</a>
+      <a href="#" class="global-item">Store</a>
+      <a href="#" class="global-item">Contact</a>
     </div>
   </nav>
   
   <!-- local nav -->
-  <nav>
-    <div>
-      <a href="#">RealApplePeach</a>
-      <a href="#">Overview</a>
-      <a href="#">Compare</a>
-      <a href="#">Buy</a>
+  <nav class="local">
+    <div class="local-container">
+      <a href="#" class="local-item-main">RealApplePeach</a>
+      <a href="#" class="local-item">Overview</a>
+      <a href="#" class="local-item">Compare</a>
+      <a href="#" class="local-item">Buy</a>
     </div>
   </nav>
 
-  <!-- section-0 -->
-  <section>
-    <div><h1>Peach taste</h1></div>
+  <!-- section0 -->
+  <section class="section0">
+    <div class="section0-main"><h1>Apple taste</h1></div>
 
-    <div><p>온전히 빠져들게 하는 빛깔</p></div>
-    <div><p>나의 건강을 채워주는 향기</p></div>
-    <div><p>깨끗한 자연의 신선함</p></div>
-    <div><p>새롭게 입가를 찾아온 매혹</p></div>
+    <div id="section0-message-0" class="section0-message">
+      <p>온전히 빠져들게 하는 빛깔</p>
+    </div>
+    <!-- <div id="section0-message-1" class="section0-message">
+      <p>나의 건강을 채워주는 향기</p>
+    </div>
+    <div id="section0-message-2" class="section0-message">
+      <p>깨끗한 자연의 신선함</p>
+    </div>
+    <div id="section0-message-3" class="section0-message">
+      <p>새롭게 입가를 찾아온 매혹</p>
+    </div> -->
   </section>
 
-  <!-- section-1 -->
-  <section>
-    <div>
+  <!-- section1 -->
+  <section class="section1">
+    <div class="section1-message">
       <p>
         진짜 사과 이야기
         사과를 매일 하나씩 먹으면 의사 볼 일이 없다
@@ -71,5 +84,7 @@
       <p>Copyleft 2022 PARK SUHYEON Allright reserved.</p>
     </div>
   </footer>
+
+  <script src="./main.js"></script>
 </body>
 </html>
