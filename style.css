@@ -39,8 +39,10 @@ footer {
 }
 
 video {
+  width: 100%;
   margin: 0 auto;
-  border: 3px solid palegoldenrod;
+  z-index: -5;
+  opacity: 0.8;
 }
 
 .global {
@@ -119,7 +121,7 @@ video {
   opacity: 0;
 }
 
-.show-section0 .section0-message {
+.show-section0 .section0-message{
   display: block;
 }
 
@@ -152,8 +154,19 @@ video {
 }
 
 .section2-message {
-  font-size: 6rem;
+  position: fixed;
+  top: 5em;
+  left: 0;
+  width: 100%;
+  display: none;
+  text-align: center;
+  font-size: 5rem;
   font-weight: bold;
+  opacity: 0;
+}
+
+.show-section2 .section2-message {
+  display: block;
 }
 
 #section0-canvas {
@@ -162,7 +175,7 @@ video {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: -1;
+  z-index: -10;
   text-align: center;
 }
 
