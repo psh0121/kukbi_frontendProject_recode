@@ -1,20 +1,46 @@
 @charset 'utf-8';
 
+/*
+position settings
+  static - .section0, .section1, .section2, footer
+  absolute - .global, .local
+  fixed - .section0-message, #section0-canvas, #fix-local
+*/
+
 html {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 14px;
+  color: white;
 }
 
 body {
   word-spacing: -0.08rem;
   letter-spacing: -0.03rem;
   overflow-x: hidden;
+  background-color: black;
 }
 
 a {
   text-decoration: none;
   font-size: 0.9rem;
   color: white;
+}
+
+footer {
+  /* flex - footer안에 있는 내용을 가운데로 정렬해줄 것이다. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+  background-color: gray;
+  color: black;
+  font-weight: bold;
+}
+
+video {
+  margin: 0 auto;
+  border: 3px solid palegoldenrod;
 }
 
 .global {
@@ -69,14 +95,13 @@ a {
 }
 
 .local-item, .local-item-main {
-  color: black;
   font-weight: bold;
 }
 
 /* static - section은 기존문서의 흐름을 따르도록 한다. */
 
 .section0-main {
-  padding-top: 2em;
+  padding-top: 3em;
   text-align: center;
   font-size: 6rem;
 }
@@ -84,6 +109,8 @@ a {
 .section0-message {
   /* fixed - 스크롤이벤트 발생시 애니메이션효과 추가할 것 */
   position: fixed;
+  top: 5.5em;
+  left: 0;
   width: 100%;
   display: none;
   text-align: center;
@@ -96,6 +123,53 @@ a {
   display: block;
 }
 
-.section1, footer {
-  border: 2px solid red;
+.section1 {
+  width: 100%;
+}
+
+.section1-message {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section1-message p {
+  font-size: 2.5rem;
+  line-height: 2em;
+}
+
+.section1-message p strong {
+  font-size: 4rem;
+  float: left;
+  text-align: left;
+}
+
+.section2 {
+  /* flex - section2영역안에서 동영상의 위치를 설정할 것이다. */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.section2-message {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+#section0-canvas {
+  /* absolute - 이미지를 가장상단에 위치시켜야 하기 때문에 일반적인 문서의 흐름을 제거한다. */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
+}
+
+#fix-local .local {
+  /* fixed - local 부분을 스크롤을 내리면 고정되도록 설정 */
+  position: fixed;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(5px);   /* 이걸로도 블러처리가 되는군 후후 */
 }
