@@ -22,8 +22,8 @@
 - [후기](#후기)
 
 ## 개요
-- <b>프로젝트 명:</b> Real Apple Pro 🍎
-- <b>리포지토리 명:</b> kukbi_frontendProject_guide
+- <b>프로젝트 명:</b> Do eat: 당신이 사과를 먹어야 하는 이유
+- <b>리포지토리 명:</b> kukbi_frontendProject_recode
 - <b>스택:</b> <img src="https://img.shields.io/badge/JavaScript-_?style=flat-square&logo=javascript&logoColor=black&color=%23F7DF1E">, <img src="https://img.shields.io/badge/HTML-_?style=flat-square&logo=html5&logoColor=white&color=%23E34F26">, <img src="https://img.shields.io/badge/CSS-_?style=flat-square&logo=css3&logoColor=white&color=%231572B6"> 
 
 ## 주요
