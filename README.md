@@ -27,9 +27,11 @@
 - <b>스택:</b> <img src="https://img.shields.io/badge/JavaScript-_?style=flat-square&logo=javascript&logoColor=black&color=%23F7DF1E">, <img src="https://img.shields.io/badge/HTML-_?style=flat-square&logo=html5&logoColor=white&color=%23E34F26">, <img src="https://img.shields.io/badge/CSS-_?style=flat-square&logo=css3&logoColor=white&color=%231572B6"> 
 
 ## 주요
-|![section0](https://github.com/psh0121/kukbi_frontendProject_guide/assets/65241463/57874998-9ab3-4574-9895-fdbd030ac1eb)|![section1](https://github.com/psh0121/kukbi_frontendProject_guide/assets/65241463/d811809d-b85e-4774-8911-4ae84f2d60f2)|
+|![section0](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/f70b8661-3e64-4a57-b018-fe1d512ef79f)|![section1](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/c21dd487-4aa6-4eba-ba91-29ba1d7d5ac8)|
 |---|---|
 |<p align="center"><b>섹션0</b></p>|<p align="center"><b>섹션1</b></p>|
+|![section2](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/11064173-fe54-4254-9340-6f0480685f86)||
+|<p align="center"><b>섹션2</b></p>||
 
 ## 와이어 프레임
 <!-- wire frame -->
