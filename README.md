@@ -36,13 +36,16 @@
 ## 와이어 프레임
 <!-- wire frame -->
 ### ► 섹션0
-![_section0](https://github.com/psh0121/kukbi_frontendProject_guide/assets/65241463/b87f67aa-7e4f-4bcb-9b74-90d65e9a9b94)
+![_section0](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/2d52524b-9301-46db-85f0-07e3f6d77583)
 
 ### ► 섹션0 스크롤시
-![section0_scroll](https://github.com/psh0121/kukbi_frontendProject_guide/assets/65241463/65b1c779-3fd5-4474-97a7-90d9916e4ad1)
+![section0_scroll](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/d6a035af-683f-44eb-9a40-2f8e80448b69)
 
 ### ► 섹션1
-![section1](https://github.com/psh0121/kukbi_frontendProject_guide/assets/65241463/55f8c2d1-917a-49af-978d-6b347d736147)
+![section1](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/dfd84ab4-5a2d-4a01-9bed-370cd242965c)
+
+### ► 섹션2
+![section2](https://github.com/psh0121/kukbi_frontendProject_recode/assets/65241463/afce5faf-63be-4461-bc58-fab6914365a1)
 
 ## 후기
 <!-- 후기 -->
